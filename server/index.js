@@ -24,7 +24,7 @@ pgClient.on('connect', () => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hi');
+  res.send('Hola X');
 });
 
 app.get('/values', async (req, res) => {
